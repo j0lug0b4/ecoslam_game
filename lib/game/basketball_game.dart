@@ -20,7 +20,7 @@ class BasketBallGame extends Forge2DGame
   late Timer _timer;
 
   // Timer for the game
-  ValueNotifier<int> timer = ValueNotifier(60000);
+  ValueNotifier<int> timer = ValueNotifier(60);
 
   // Notifier for the game score
   ValueNotifier<int> score = ValueNotifier(0);
@@ -50,7 +50,7 @@ class BasketBallGame extends Forge2DGame
 
   // Resetear el temporizador cuando el juego termina
   void resetTimer() {
-    timer.value = 60000;
+    timer.value = 60;
   }
 
   // Resetear la puntuación cuando el juego termina
