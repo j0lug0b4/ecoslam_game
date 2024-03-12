@@ -86,7 +86,7 @@ class GameOverScreen extends StatelessWidget {
                       child: const Text(
                         'Play Again',
                         style: TextStyle(
-                            color: Colors.white,
+                            color: Colors.black,
                             fontWeight: FontWeight.w700,
                             fontFamily: 'Enhanced LED Board-7',
                             fontSize: 14),
