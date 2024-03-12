@@ -1,0 +1,5 @@
+class AudioAssets {
+  AudioAssets._();
+
+
+}
